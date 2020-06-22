@@ -5,9 +5,9 @@ date: 2020-06-21
 ---
 
 <font size="3">
-Hello! My name is Grace and I’ve been throwing stuff at the wall to see what sticks in academia since 2013. I’m an incoming aerospace engineering Ph.D. student at Cornell. Prior to this, I majored in physics and minored in mathematics at Wheaton College in Massachusetts. Through a dual degree program, I also earned a Bachelor of Engineering with a concentration in computational sciences from Dartmouth. Going back even further, I attended a public high school in northern Wisconsin and became a QuestBridge finalist during my senior year.
+Hello! My name is Grace and I’ve been throwing stuff at the wall to see what sticks in academia since 2013. I’m an incoming aerospace engineering Ph.D. student at Cornell. Prior to this, I majored in physics and minored in mathematics at Wheaton College in Massachusetts. Through a dual degree program, I also earned a Bachelor of Engineering with a concentration in computational sciences from Dartmouth. Going back even further, I attended a public high school in northern Wisconsin and became a QuestBridge finalist during my senior year. <br><br>
 
-Going through the application processes has been a learning experience, both an introspective one and about the world of higher education. The QuestBridge application process left me wanting to participate in educational outreach initiatives. Specifically, ones aimed at women and minorities. After finishing my undergrad application process, I got the idea to start a pro bono application help service. Over the years this idea has taken many forms.
+Going through the application processes has been a learning experience, both an introspective one and about the world of higher education. The QuestBridge application process left me wanting to participate in educational outreach initiatives. Specifically, ones aimed at women and minorities. After finishing my undergrad application process, I got the idea to start a pro bono application help service. Over the years this idea has taken many forms. <br><br>
 
 This is my plan for the first version to formally launch:
 <ul>
