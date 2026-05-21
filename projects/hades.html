@@ -1,0 +1,147 @@
+---
+layout: default
+title: HADES: H1 Absorption in the Dark agES
+---
+
+<style>
+  .project-page {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* Top section */
+  .project-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  /* Left image */
+  .project-image {
+    flex: 0 0 450px;
+    max-width: 450px;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+
+  /* Right title */
+  .project-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-title h1 {
+    margin: 0;
+  }
+
+  /* Full-width sections underneath */
+  .project-body {
+    width: 100%;
+  }
+
+  .section {
+    margin-bottom: 50px;
+  }
+
+  .section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .section p {
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
+
+  .section ul {
+    padding-left: 20px;
+  }
+
+  .section li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+
+  .section a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .section a:hover {
+    text-decoration: underline;
+  }
+
+  /* Mobile layout */
+  @media (max-width: 850px) {
+    .project-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .project-image,
+    .project-title {
+      max-width: 100%;
+    }
+
+    .project-title {
+      justify-content: center;
+    }
+
+    .section ul {
+      text-align: left;
+    }
+  }
+</style>
+
+<div class="project-page">
+
+  <!-- Top Section -->
+  <div class="project-header">
+
+    <!-- Left: Image -->
+    <div class="project-image">
+      <img src="/projects/images/hadesmissionpatch_v2.png" alt="hades">
+    </div>
+
+    <!-- Right: Title -->
+    <div class="project-title">
+      <h1>HADES: H1 Absorption in the Dark agES</h1>
+    </div>
+
+  </div>
+
+  <!-- Full Width Content -->
+  <div class="project-body">
+
+    <!-- Summary -->
+    <div class="section">
+
+      <p>
+        HADES is a lunar CubeSat mission proposal to characterize radio foregrounds from the moon’s dark side. Observing these signals are a necessary step towards constraining the formation of the first sources of light in the Universe and early structure formation. The far side of the Moon is potentially the most pristine location in the inner Solar system to conduct such observations for two reasons. First, the Earth's ionosphere has a finite plasma frequency that distorts and reflects signals, making these observations impossible from Earth. Second, the lunar disk acts as a natural shield against any radio transmissions from Earth and Sun creating a clean environment. These measurements are fundamental to informing instrumetation and observation planning for future flagship missions.
+      </p>
+
+      <p>
+        I was the deputy engineer for both the trajectory and communication teams. On the trajectory team, I planned the lunar orbit insertion maneuvers from the transfer trajectory using SPICE kernels in GMAT and STK. The orbit I helped produce for data collection was a low lunar orbit. It met the required Keplarian orbital elements and also requires no station-keeping maneuvers during the 150 days of science data collection. I also led the effort to devise a spacecraft disposal plan with a delta-v expenditure of 0-20 m/s and allows for downlinking science data. To support the communications team, I mground system coverage using GMAT, demonstrating nearly full Deep Space Network coverage for the 810-day mission.
+      </p>
+
+      <p>
+        On behalf of the HADES team, I <a href="https://iafastro.directory/iac/paper/id/69123/summary/">presented</a> our mission design at the 73rd International Astronautical Congress in Paris, France. 
+      </p>
+      
+    </div>
+
+  </div>
+
+</div>
