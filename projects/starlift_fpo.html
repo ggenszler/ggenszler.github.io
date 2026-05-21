@@ -13,30 +13,26 @@ title: Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
+    gap: 50px;
 
     margin-top: 40px;
     margin-bottom: 50px;
   }
 
-  .project-image {
+  .project-left {
     flex: 0 0 450px;
     max-width: 450px;
   }
 
-  .project-image img {
+  .project-left img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 8px;
+    margin-bottom: 20px;
   }
 
-  .project-summary {
-    flex: 1;
-    max-width: 550px;
-  }
-
-  .project-summary h1 {
+  .project-left h1 {
     margin-top: 0;
     margin-bottom: 20px;
   }
@@ -44,6 +40,11 @@ title: Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space
   .project-summary p {
     line-height: 1.7;
     margin-bottom: 18px;
+  }
+
+  .project-right {
+    flex: 1;
+    max-width: 500px;
   }
 
   .section {
@@ -81,13 +82,9 @@ title: Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space
       align-items: center;
     }
 
-    .project-image,
-    .project-summary {
+    .project-left,
+    .project-right {
       max-width: 100%;
-    }
-
-    .project-summary {
-      text-align: center;
     }
   }
 </style>
