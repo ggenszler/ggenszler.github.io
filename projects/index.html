@@ -1,0 +1,118 @@
+---
+layout: default
+title: Projects
+---
+
+<style>
+  .projects-container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .project-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .project-image {
+    flex: 0 0 400px;
+    max-width: 400px;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .project-caption {
+    flex: 0 0 400px;
+    max-width: 400px;
+  }
+
+  .project-caption h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  .project-caption p {
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .project-caption a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .project-caption a:hover {
+    text-decoration: underline;
+  }
+
+  /* Mobile layout */
+  @media (max-width: 850px) {
+    .project-entry {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .project-image,
+    .project-caption {
+      max-width: 100%;
+      flex: none;
+    }
+  }
+</style>
+
+<div class="blurb">
+  <h1>Projects</h1>
+  <p>A collection of research, engineering, and creative work.</p>
+</div><!-- /.blurb -->
+
+<div class="projects-container">
+
+  <!-- Project 1 -->
+  <div class="project-entry">
+
+    <div class="project-image">
+      <img src="/images/project1.jpg" alt="Project 1 image">
+    </div>
+
+    <div class="project-caption">
+      <h2>Project Title</h2>
+
+      <p>
+        Short description of the project goes here.
+      </p>
+
+      <a href="/projects/project1">View Project →</a>
+    </div>
+
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-entry">
+
+    <div class="project-image">
+      <img src="/images/project2.jpg" alt="Project 2 image">
+    </div>
+
+    <div class="project-caption">
+      <h2>Another Project</h2>
+
+      <p>
+        Another short project summary goes here.
+      </p>
+
+      <a href="/projects/project2">View Project →</a>
+    </div>
+
+  </div>
+
+</div>
