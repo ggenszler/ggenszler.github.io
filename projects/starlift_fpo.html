@@ -9,16 +9,18 @@ title: Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space
     margin: 0 auto;
   }
 
+  /* Top section */
   .project-header {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
+    gap: 50px;
 
     margin-top: 40px;
     margin-bottom: 50px;
   }
 
+  /* Left image */
   .project-image {
     flex: 0 0 450px;
     max-width: 450px;
@@ -31,21 +33,20 @@ title: Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space
     border-radius: 8px;
   }
 
+  /* Right title */
   .project-title {
     flex: 1;
-    max-width: 550px;
+    display: flex;
+    align-items: center;
   }
 
   .project-title h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 0;
   }
 
-  .section p {
-    flex: 1;
-    line-height: 1.7;
-    max-width: 1000px;
-    margin-bottom: 18px;
+  /* Full-width sections underneath */
+  .project-body {
+    width: 100%;
   }
 
   .section {
@@ -56,6 +57,11 @@ title: Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 20px;
+  }
+
+  .section p {
+    line-height: 1.7;
+    margin-bottom: 18px;
   }
 
   .section ul {
@@ -81,33 +87,50 @@ title: Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space
     .project-header {
       flex-direction: column;
       align-items: center;
+      text-align: center;
     }
 
     .project-image,
-    .project-summary {
+    .project-title {
       max-width: 100%;
     }
 
-    .project-summary {
-      text-align: center;
+    .project-title {
+      justify-content: center;
+    }
+
+    .section ul {
+      text-align: left;
     }
   }
 </style>
+
+
+
+
+
 
 <div class="project-page">
 
   <!-- Top Section -->
   <div class="project-header">
 
+    <!-- Left: Image -->
     <div class="project-image">
       <img src="/projects/images/starlift.png"
            alt="Logistics Network Design for Spacecraft Servicing in Cislunar Space">
     </div>
 
+    <!-- Right: Title -->
     <div class="project-title">
       <h1>Ephemeris Modeling of Forced Periodic Orbits in Cislunar Space</h1>
     </div>
+  </div>
 
+  <!-- Full Width Content -->
+  <div class="project-body">
+
+    <!-- Summary -->
     <div class="section">
       <p>
         Forced periodic orbits are a novel type of orbits in the Circular Restricted Three Body Problem (CRTBP). Unlike their unforced counterparts, forced periodic orbits have not been studied extensively. To better understand their potential, I developed an ephemeris dynamics model of cislunar space and augmented existing closed, periodic orbit algorithms to handle low, continuous thrust maneuvers. 
