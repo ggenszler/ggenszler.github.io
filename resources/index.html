@@ -2,12 +2,103 @@
 layout: default
 title: Resources
 ---
-<div class="blurb">
-	<h1>Resources</h1>
-</div><!-- /.blurb -->
 
-<em>Disclaimer: The opinions in these resources and the decision to include third party resources are my own and not necessarily those of my lab, university, or funding agencies.</em>
-<ul>
-  <li><a href="/undergrad">Undergraduate Admissions Resources</a></li>
-  <li><a href="/grad">Graduate Admissions Resources</a></li>
-</ul>
+<style>
+  .page-container {
+    max-width: 900px;
+    margin: 0 auto;
+
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .blurb {
+    margin-bottom: 35px;
+  }
+
+  .blurb h1 {
+    margin-bottom: 10px;
+  }
+
+  .disclaimer {
+    font-style: italic;
+    line-height: 1.7;
+
+    margin-bottom: 40px;
+    padding: 18px 22px;
+
+    border-left: 4px solid #ccc;
+    background-color: #f8f8f8;
+  }
+
+  .resources-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .resources-list li {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+
+    border-bottom: 1px solid #ddd;
+  }
+
+  .resources-list a {
+    text-decoration: none;
+    font-size: 1.15em;
+    font-weight: bold;
+  }
+
+  .resources-list a:hover {
+    text-decoration: underline;
+  }
+
+  .resource-description {
+    margin-top: 8px;
+    line-height: 1.7;
+  }
+</style>
+
+<div class="page-container">
+
+  <div class="blurb">
+    <h1>Resources</h1>
+  </div><!-- /.blurb -->
+
+  <div class="disclaimer">
+    Disclaimer: The opinions in these resources and the
+    decision to include third-party resources are my own
+    and not necessarily those of my workplace/lab/university/college
+    or funding agencies.
+  </div>
+
+  <ul class="resources-list">
+
+    <li>
+      <a href="/undergrad">
+        Undergraduate Admissions Resources
+      </a>
+
+      <div class="resource-description">
+        Advice and resources related to undergraduate
+        applications, research opportunities, and
+        preparing for STEM programs.
+      </div>
+    </li>
+
+    <li>
+      <a href="/grad">
+        Graduate Admissions Resources
+      </a>
+
+      <div class="resource-description">
+        Information about graduate school applications,
+        research statements, fellowships, and navigating
+        graduate programs in science and engineering.
+      </div>
+    </li>
+
+  </ul>
+
+</div>
