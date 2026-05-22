@@ -2,17 +2,151 @@
 layout: default
 title: Grace Genszler
 ---
-<div class="blurb">
-	<h1>Grace Genszler</h1>
-	<p>Simulation & Analysis Engineering &middot; Astrodynamics &middot; Physics of Gymnastics</p>
-</div><!-- /.blurb -->
 
-<br>Grace Genszler grew up in Ashland, Wisconsin, where the school district had science teachers who showed her pretty space pictures and a competitive gymnastics team to apply physics to. 
-<br>
-<br>She received her Bachelor of Arts in Physics from Wheaton College in Massachusetts in 2018. Through a dual-degree engineering program, she also received of Bachelor of Engineering from the Thayer School of Engineering at Dartmouth College in 2019. Throughout her undergraduate studies, she was exposed to different research projects at her colleges and summer research programs at other universities. In sum, she learned that she did not enjoy optics or experimental research, but did like computational simulations and the prospect of growing kale on Mars. 
-<br>
-<br>Following her undergraduate studies, Grace took a gap year to work at a bakery while applying to graduate programs. She even got to ride with the bread delivery van to the airport to visit schools. 
-<br>
-<br>In 2020 Grace started at Cornell as an Aerospace Engineering Ph.D. student and joined Dmitry Savransky's Space Imaging and Optical Systems Laboratory, which she initially overlooked because it had the word 'optics' in it. Her research on trajectory design and mission planning has been funded by a NASA Student University Research Partnership, an Air Force Space University Research Initiative, a New York Space Grant Fellowship, and an Amelia Earhart Fellowship. 
-<br>
-<br>During her graduate studies, she also interned at Virgin Orbit as a Matthew Isakowitz Fellow and at Slingshot Aerospace through the then named Space Workforce 2030 program. 
+<style>
+  .intro-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  /* Left image */
+  .intro-image {
+    flex: 0 0 350px;
+    max-width: 350px;
+  }
+
+  .intro-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  /* Right text content */
+  .intro-content {
+    flex: 1;
+  }
+
+  .intro-content .blurb {
+    margin-bottom: 30px;
+  }
+
+  .intro-content h1 {
+    margin-bottom: 10px;
+  }
+
+  .intro-content p.subtitle {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 35px;
+  }
+
+  .bio-text p {
+    line-height: 1.8;
+    margin-bottom: 24px;
+  }
+
+  /* Mobile layout */
+  @media (max-width: 900px) {
+    .intro-section {
+      flex-direction: column;
+    }
+
+    .intro-image {
+      max-width: 100%;
+    }
+  }
+</style>
+
+<div class="intro-section">
+
+  <!-- Left Image -->
+  <div class="intro-image">
+    <img src="/images/headshot1.jpeg"
+         alt="Grace Genszler">
+  </div>
+
+  <!-- Right Content -->
+  <div class="intro-content">
+
+    <div class="blurb">
+      <h1>Grace Genszler</h1>
+
+      <p class="subtitle">
+        Simulation & Analysis Engineering &middot;
+        Astrodynamics &middot;
+        Physics of Gymnastics
+      </p>
+    </div><!-- /.blurb -->
+
+    <div class="bio-text">
+
+      <p>
+        Grace Genszler grew up in Ashland, Wisconsin,
+        where the school district had science teachers
+        who showed her pretty space pictures and a
+        competitive gymnastics team that let her apply
+        physics to motion in the real world.
+      </p>
+
+      <p>
+        She received her Bachelor of Arts in Physics
+        from Wheaton College in Massachusetts in 2018.
+        Through a dual-degree engineering program,
+        she also received a Bachelor of Engineering
+        from the Thayer School of Engineering at
+        Dartmouth College in 2019.
+      </p>
+
+      <p>
+        Throughout her undergraduate studies, she
+        worked on research projects both at her home
+        institutions and through summer programs at
+        other universities. In the process, she learned
+        that she did not enjoy optics or experimental
+        research, but did enjoy computational simulations
+        and the prospect of growing kale on Mars.
+      </p>
+
+      <p>
+        Following her undergraduate studies, Grace
+        took a gap year to work at a bakery while
+        applying to graduate programs. She even got
+        to ride with the bread delivery van to the
+        airport while visiting schools.
+      </p>
+
+      <p>
+        In 2020, Grace started at Cornell as an
+        Aerospace Engineering Ph.D. student and joined
+        Dmitry Savransky's Space Imaging and Optical
+        Systems Laboratory, which she initially
+        overlooked because it had the word “optics”
+        in the name.
+      </p>
+
+      <p>
+        Her research on trajectory design and mission
+        planning has been funded by a NASA Student
+        University Research Partnership, an Air Force
+        Space University Research Initiative, a
+        New York Space Grant Fellowship, and an
+        Amelia Earhart Fellowship.
+      </p>
+
+      <p>
+        During graduate school, she also interned
+        at Virgin Orbit as a Matthew Isakowitz Fellow
+        and at Slingshot Aerospace through the program
+        then known as Space Workforce 2030.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
